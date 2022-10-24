@@ -18,8 +18,8 @@ class _HomeState extends State<Home> {
   final screens = const [
     HomeExplorePage(),
     ExchangePage(),
+    NewPosts(),
     SecondHandBook(),
-    NewBookBazar(),
     MyProfile()
   ];
 

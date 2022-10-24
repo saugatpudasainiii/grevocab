@@ -1,9 +1,8 @@
-import 'package:bookstolook/core/viewmodels/login_viewmodel.dart';
-import 'package:bookstolook/ui/views/homepage.dart';
 import 'package:bookstolook/ui/views/navigation.dart';
 import 'package:bookstolook/ui/views/welcomePage.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+import 'core/viewmodels/add_book_images.dart';
 import 'core/viewmodels/signUp_viewmodel.dart';
 
 void main() {
@@ -23,6 +22,7 @@ class _MyAppState extends State<MyApp> {
     return MultiProvider(
       providers: [
         ChangeNotifierProvider(create: (context) => SignUpModel()),
+        ChangeNotifierProvider(create: (context) => AddBookImages()),
       ],
       child: GestureDetector(
         onTap: () {

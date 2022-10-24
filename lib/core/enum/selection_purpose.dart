@@ -1,0 +1,4 @@
+enum SelectionPurpose {
+  exchange,
+  sale,
+}

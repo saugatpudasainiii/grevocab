@@ -4,4 +4,5 @@ class Apis {
 
   static const String signUp = "$newBaseUrl${herokuUrl}user";
   static const String logIn = "$newBaseUrl${herokuUrl}user/login";
+  static const String getCatogiries = "$newBaseUrl${herokuUrl}jobsCategories";
 }

@@ -29,4 +29,11 @@ class RequestHandler {
       }),
     );
   }
+
+  //get categories
+  Future<Response> getCategories() async {
+    return await dio.get(
+      Apis.getCatogiries,
+    );
+  }
 }
